@@ -1,0 +1,609 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    transition: 0.2s linear;
+    text-transform: none;
+    font-family: sans-serif, Helvetica, Arial;
+  }
+  body#index{
+    background: black;
+  }
+  .btn{
+    margin-top: 25px;
+    width: 150px;
+    padding: 12px;
+    color: #fff;
+    background: tomato;
+    font-size: 16px;
+    border-radius: 4px;
+  }
+  .btn:hover{
+    background: rgba(212, 48, 48, 0.76);
+    transition: 0.4s;
+  }
+  /* Header */
+  .header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    padding: 2%;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    justify-content: space-between;
+    background-color: white;
+    
+  }
+  .header .logo{
+    font-size: 23px;
+    font-weight: bolder;
+    color: black;
+    padding-left: 30px;
+    
+  }
+  .header .logo img{
+    width:22px;
+  }
+
+  .header .navbar a{
+    font-size: 18px;
+    margin: 15px;
+    color:black;
+    font-weight: bolder;
+  }
+  .header .navbar a:hover{
+    color: #baa6cf;
+  }
+  .header .btn{
+    background: transparent;
+    color: tomato;
+    border: 1px solid tomato;
+    font-size: 12px;
+    padding: 8px;
+  }
+  
+  .max-width{
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+  }
+  section{
+    padding: 50px 0 50px 0;
+  }
+  .home{
+    display: flex;
+  }
+  .home .max-width{
+    width: 100%;
+    display: flex;
+  }
+  .home .home-contenido{
+    width: 50%;
+    padding: 25px;
+    font-weight: bolder;
+  
+  }
+  .home h3{
+    color: orangered;
+    margin-top: 80px;
+    font-size: 63px;
+    font-family:sans-serif;
+    font-weight: bolder;
+  }
+  .home p{
+    color: rgb(194, 191, 191);
+    margin-top: 40px;
+    font-size: 13px;
+  }
+  .home .home-image{
+    width: 50%;
+  }
+  .home .home-image img{
+    width: 100%;
+    height: 100%;
+    padding-top: 40px;
+  }
+ 
+  .footer{
+    color:black;
+    background:white;
+    text-align:center;
+    height: 7px;
+    line-height:10px;
+    padding:20px;
+    position: fixed;
+    bottom:0;
+    width:100%;
+    font-weight: bolder;
+    
+    
+  }
+ 
+
+
+/*css de la página de acceso*/
+
+
+  body#acceso{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:750px;
+   
+  
+
+    /*background-image: url("C/Users/Aaron/OneDrive/Escritorio/Lenguajes de marcas y sistemas/mujer gimnasio.png");*/
+    background-image: url(imagenes/gimnasio1.png);
+    background-size: 100%;
+  }
+  .container{
+    width: 100%;
+    display: flex;
+    max-width: 850px;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+    
+}
+.login{
+    width: 400px;
+    
+}
+form{
+    width: 250px;
+    margin: 60px auto;
+    
+}
+h1{
+    margin: 20px;
+    text-align: center;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+p#acceso{
+    text-align: center;
+    margin: 10px;
+}
+p#registro{
+  text-align: center;
+  margin:10px;
+}
+
+hr{
+    border-top: 2px solid tomato;
+}
+
+form label{
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 5px;   
+    
+}
+input{
+    width: 100%;
+    margin: 2px;
+    border: none;
+    outline: none;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid gray;
+     
+}
+
+input:valid:focus{
+  box-shadow: 0 0 2px rgba(0,255,0,0.4);
+  
+  
+}
+input:invalid:focus{
+ background: #F47876; box-shadow: none;}
+
+
+button{
+    border: none;
+    outline: none;
+    padding: 8px;
+    width: 252px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 5px;
+    background: tomato;
+}
+button:hover{
+    background: rgba(214, 86, 64, 1);
+}
+
+
+.container2{
+  width: 100%;
+  display: flex;
+  max-width: 850px;
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+  margin-top: 70px;
+}
+
+/*CSS de pago        ------------------------------------------------------------------------------------------------------------*/
+.container3{ 
+  display:flex;
+  margin:50 px auto;
+  width:50%;
+
+}
+
+.planes{
+  width:330px;
+  padding:10px;
+  margin:50px;
+  margin-top:100px;
+  background:white;
+  border-radius:10px;
+  text-align: center;
+  border:1px solid black;
+  box-shadow: 0 20 px 35px black;
+}
+h1#pago{
+  font-size:16px;
+  color:black;
+  margin-top: 50px;
+  
+}
+span#pago{
+  font-size:18px;
+  margin-right: 8px;
+  color:black;
+  padding:10px;
+  background-color: #E5E7E9;
+}
+span#pago2{
+  font-size:18px;
+  margin-right: 8px;
+  color:black;
+  padding:10px;
+  background-color: #F4D03F;
+}
+
+ul{
+  list-style:none;
+  text-align: left;
+  margin:10px 20px;
+  font-family: Arial;
+
+
+}
+ul li{
+  margin-top:25px;
+  cursor:pointer;
+  font-weight:bolder;
+  font-size:18px;
+}
+.container3 .planes img{
+  width: 15px;
+}
+h3#plata{
+  color:black;
+  padding:10px;
+  text-align: center;
+  background-color: #E5E7E9;
+
+}
+h3#oro{
+  color:black;
+  padding:10px;
+  text-align:center;
+  background-color: #F4D03F;
+}
+/*CSS de la página de servicios-----------------------------------------------------------------*/
+body#servicios{
+  background: #F4F6F6;
+  margin-top:200px;
+}
+h1#servicios{
+  text-transform:none;
+  font-weight:bolder;
+  font-size: 35px;
+}
+.container-galeria{
+ align-items: center;
+}
+.galeria{
+  width:80%;
+  margin:auto;
+  list-style:none;
+  padding:20px;
+  box-sizing: border-box;
+  display:flex;
+  flex-wrap:wrap;
+  align-items: center;
+}
+.galeria li{
+  margin:5px;
+  align-items: center;
+}
+.galeria img{
+  margin-top:30px;
+  margin:5px;
+  width:370px;
+  align-items: center;
+
+}
+.galeria img#imagen6{
+  height:210px;
+}
+.tabla{
+	position: flex;
+	height: 200px;
+	width: 100%;
+	text-align: center;
+	margin-top: 70px;
+	margin-left: 120px;
+  padding-bottom: 800px;
+}
+.th{
+	border: 3px solid #332828;
+	height: 80px;
+	width: 200px;
+}
+.tabla-clase{
+	border: 2px solid #CCD1D1;
+	height: 100px;
+	width: 200px;
+	vertical-align: center;
+	text-align: center;
+	padding: 5px;
+}
+.tabla-hora{
+	background-color: #CCD1D1;
+	border: 3px solid #332828;
+	height: 50px;
+	width: 200px;
+	text-align: center;
+}
+/*CSS del carrito ---------------------------------------*/
+
+body#carrito{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:750px;
+}
+/*CSS Datos de Usuario-----------------------------*/
+.datos-usuario{
+  background-color: white;
+  width:60%;
+  margin-top:120px;
+  border-radius: 15px;
+
+
+}
+.datos-usuario label,.datos-usuario input{
+  margin-left:30px;
+  margin-top:5px;
+  
+
+
+}
+.datos-usuario input{
+  width:90%;
+}
+
+fieldset{
+  padding: 20px;
+}
+legend{
+  padding-top:40px;
+  font-weight: bolder;
+  text-align: center;
+  font-size:20px;
+  
+
+}
+/*CSS de Contacto -----------*/
+
+.form1 {
+  align-items: center;
+  width:500px;
+  padding:10px;
+  margin:70px;
+  margin-left:520px;
+  background:white;
+  border-radius:10px;
+  text-align: center;
+  border:1px solid black;
+  box-shadow: 0 20 px 35px black;
+}
+.form1 label{
+  font-size:13px;
+  padding:15px;
+  padding-top:5px;
+  margin-top:15px;
+}
+h1#contacto{
+  font-weight: bolder;
+  font-size:22px;
+}
+
+.button4 {
+  margin-bottom:30px;
+  width: 84%;
+  background-color: black;
+  display: inline-block;
+  color: white;
+  padding: 14px 20px;
+text-decoration:none;
+  border: none;
+  text-align: center;
+  border-radius: 4px;
+  cursor: pointer;
+  border-style: solid;
+		border-color: grey;
+		background-color: black;
+}
+.button4:hover{
+	 background-color: white;
+  color:black;
+  border-color: black;
+  text-align: center;
+  width : 84%;
+	 box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+body#contacto{
+  background-image: url(imagenes/gimnasio1.png) ;
+  background-size:100%;
+
+}
+/*CSS Carrito ------------------------------------------------*/
+ul li{
+  margin-top:25px;
+  cursor:pointer;
+  font-weight:bolder;
+  font-size:18px;
+}
+.container4 .carrito img{
+  width: 15px;
+}
+.container4 .carrito{
+  width:95%;
+  padding:50px;
+  margin:40px;
+  margin-top:100px;
+  background:#F2F4F4  ;
+  border-radius:10px;
+  text-align: center;
+  border:1px solid black;
+  box-shadow: 0 20 px 35px black;
+  
+}
+h3#oro2{
+  color:black;
+  padding:35px;
+  text-align:center;
+  background-color: #F4D03F;
+  border:1px solid black;
+  height:60px;
+  line-height:5px;
+  font-size:24px;
+}
+.carrito{
+  width:500px;
+}
+h1#carrito2{
+  text-transform: none;
+}
+.carrito input{
+  line-height: 30px;
+  width:90%;
+}
+.carrito input#cod{
+  width: 300px;
+  line-height:25px;
+
+}
+.carrito input#fecha{
+  width: 300px;
+  line-height:25px;
+}
+p#carrito{
+  font-size:15px;
+  margin-top:10px;
+}
+h1#carrito{
+font-size:25px;
+
+}
+span#carrito{
+  font-size:26px;
+  margin-right: 8px;
+  color:black;
+  padding:10px;
+  background-color: #F4D03F;
+  border:1px solid black;
+  
+}
+
+/*CSS de la página de Productos---------------------*/
+body#producto{
+  background-color:#F4F6F6;
+}
+.container-items{
+  display: flex;
+  align-items: center;
+  margin: auto;
+  width: 85%;
+  padding-top: 50px;
+  margin-top:10px;
+  margin-bottom:20px;
+ }
+ .item{
+  margin: 40px;
+  border-radius: 6px;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+}
+#producto1{
+  width: 100%;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+}
+#producto2{
+  width: 100%;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+}
+#producto3{
+  width: 100%;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+}
+#producto4{
+  width: 100%;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+}
+
+.info-producto{
+  text-align: center;
+  margin-top: 10px;
+}
+.precio{
+  margin: 10px;
+  color:black;
+  font-weight: 900; 
+  font-size: 19px;
+}
+.boton{
+  background-color:black;
+  border-color: orange;
+  padding: 6px 16px;
+  border-radius: 6px;
+}
+
+/*CSS Plan plata */
+h3#plata2{
+  color:black;
+  padding:35px;
+  text-align:center;
+  background-color:#E5E7E9;
+  border:1px solid black;
+  height:60px;
+  line-height:5px;
+  font-size:24px;
+}
+
+span#carrito2{
+  font-size:26px;
+  margin-right: 8px;
+  color:black;
+  padding:10px;
+  background-color:#E5E7E9;
+  border:1px solid black;
+  
+}

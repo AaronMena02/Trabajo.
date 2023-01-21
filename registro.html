@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regístrate</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="acceso">
+    <header class="header">
+        <a href="index.html" class="logo"><img src="imagenes/logo.png">
+            MCFit
+        </a>
+        <nav class="navbar">
+            <a href="producto.html">Productos</a>
+            <a href="servicios.html">Servicios</a>           
+            <a href="contacto.html">Contacto</a>
+            <a href="usuario.html">Área Cliente</a>
+            <a href="#">|</a>
+            <a href="accede.html">Accede</a>
+            <a href="registro.html" class="btn">Regístrate</a>
+        </nav>
+    </header>
+    <section class="form">
+        <div class="container2" >
+            <div class="login">
+                <form>
+                    <h1>Regístrate</h1>
+                    <hr>  
+                    <label>Nombre</label>
+                    <input autocomplete="off" type="text" placeholder="Sin caracteres especiales" pattern="[A-Za-z0-9]+" minlength="3"required="" />  
+                    <label>Teléfono</label>   
+                    <input type="tel" autocomplete="off" name="telefono"minlength="9"  required="" maxlength="9"  pattern="(([0-9]{3})([0-9]{3})([0-9]{3}))" placeholder="Introduce un número de 9 dígitos"/>   
+                    <label>Email</label>
+                    <input type="email" maxlength="25" required="" placeholder=" (hola@ejemplo.com)">
+                    <label></label>
+                    <label for="pass">Contraseña</label>
+                    <input type="password" name="pass" placeholder="Debe incluir una mayúscula y un nº"id="pass" minlength="5" maxlength="25" pattern="[A-Za-z0-9]+" required=""/>
+                    <button>Enviar</button>
+                    <br><br>
+                    <p id="registro">
+                        ¿Ya tienes una cuenta? <a href="accede.html">Inicia sesión</a>
+                    </p>
+                </form>
+            </div>
+        </div>
+    </section>
+    <section class="footer">
+        <footer>
+              MCFit Página Web &copy;22
+    </footer>
+    </section>
+</body>
+</html>
